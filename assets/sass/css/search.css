@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Almarai", sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+.search .form {
+  margin-top: 120px;
+}
+.search .form .button {
+  background-color: #BB0000;
+  color: #ffffff;
+  border: 1px solid #BB0000;
+  padding: 2px 30px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  margin: 0 10px;
+}
+.search .form .button:hover {
+  background-color: #ffffff;
+  color: #BB0000;
+}
+.search .form .button:hover h3 {
+  color: blue;
+}
+.search-result-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.search-result-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-result-order select {
+  padding: 6px 0 7px 9px;
+  color: #b38282;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
+.search-cards .article-link {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.search-cards .article-link:hover .card-title h3 {
+  text-decoration: underline;
+}
+.search-cards .article-link .card-text span {
+  color: #b38282;
+}
+.search-cards .button {
+  background-color: #BB0000;
+  color: #ffffff;
+  border: 1px solid #BB0000;
+  padding: 2px 30px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  margin: 50px 0;
+}
+.search-cards .button:hover {
+  background-color: #ffffff;
+  color: #BB0000;
+}
+.search-cards .button:hover h3 {
+  color: blue;
+}
+
+.search-card .card-title h3 {
+  background-color: red;
+  padding: 14px 0;
+}
+
+/*# sourceMappingURL=search.css.map */

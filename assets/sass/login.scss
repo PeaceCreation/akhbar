@@ -1,0 +1,36 @@
+@import './global-rules';
+@import './mixins';
+@import './variables';
+
+form{
+    .button{
+        @include button($white-color, $main-color, $main-color);
+        font-size: 20px;
+    }
+}
+a.ms-3{
+    color:$main-color;
+}
+
+.social-media-login{
+    padding: 20px 0;
+    .login-button{
+        color:$main-color;
+        margin-right:20px;
+        margin-top: 10px;
+        font-size: 25px;
+        transition: all 0.5s ease;
+        &:hover{
+            color:rgba($color: $main-color, $alpha: 0.5)
+        }
+    }
+}
+@media(max-width:992px){
+    body{
+        main{
+            .vh-100{
+                height: 100%!important;
+            }
+        }
+    }
+}
